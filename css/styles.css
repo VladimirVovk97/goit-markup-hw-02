@@ -1,49 +1,68 @@
 /* variables */
 :root {
   --first-text-color: #212121;
-  --background-color: #e5e5e5;
+  --background-color: #fff;
   --pretty-color: #2196f3;
   --while-color: #ffffff;
+  --link-color: #757575;
+  --accent-font: "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* header */
 .header {
   background-color: #ffffff;
   color: var(--while-color);
+  font-weight: 1600;
 }
+
 /* header */
 
 /*  navList  */
-.navList a {
-  color: #212121;
+.nav-List a {
+  color: var(--first-text-color);
 }
-.navList a:hover,
-.navList a:focus {
+.nav-List a:hover,
+.nav-List a:focus {
   color: var(--pretty-color);
+  font-size: 14px;
 }
 /* navList  */
 
-/* auth Nav */
-
 /* auth nav */
-.auth-navList a {
-  color: #757575;
+.auth-nav-List a {
+  color: var(--link-color);
 }
-.auth-navList a:hover,
-.auth-navList a:focus {
+.auth-nav-List a:hover,
+.auth-nav-List a:focus {
   color: var(--pretty-color);
+  font-size: 14px;
 }
+/* auth Nav */
 body {
-  background-color: #fff;
-  color: #212121;
+  background-color: var(--background-color);
+  color: var(--first-text-color);
   text-decoration: none;
   color: inherit;
   margin: 0%;
   list-style: none;
   padding: 0%;
-  font-family: Roboto, Raleway;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  line-height: 1, 5;
+  font-weight: 1600;
 }
 
 ul {
   list-style: none;
+}
+.classbutton {
+  cursor: pointer;
+}
+.classbutton1:hover {
+  color: var(--pretty-color);
 }
