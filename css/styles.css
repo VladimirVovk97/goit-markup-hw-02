@@ -1,3 +1,49 @@
+/* variables */
+:root {
+  --first-text-color: #212121;
+  --background-color: #e5e5e5;
+  --pretty-color: #2196f3;
+  --while-color: #ffffff;
+}
+
+/* header */
+.header {
+  background-color: #ffffff;
+  color: var(--while-color);
+}
+/* header */
+
+/*  navList  */
+.navList a {
+  color: #212121;
+}
+.navList a:hover,
+.navList a:focus {
+  color: var(--pretty-color);
+}
+/* navList  */
+
+/* auth Nav */
+
+/* auth nav */
+.auth-navList a {
+  color: #757575;
+}
+.auth-navList a:hover,
+.auth-navList a:focus {
+  color: var(--pretty-color);
+}
 body {
-  background-color: aquamarine;
+  background-color: #fff;
+  color: #212121;
+  text-decoration: none;
+  color: inherit;
+  margin: 0%;
+  list-style: none;
+  padding: 0%;
+  font-family: Roboto, Raleway;
+}
+
+ul {
+  list-style: none;
 }
