@@ -60,10 +60,16 @@ body {
 ul {
   list-style: none;
 }
-.classbutton {
+.classbutton,
+.classbutton1,
+.classbutton2 {
   cursor: pointer;
 }
 .classbutton1:hover,
 .classbutton1:focus {
+  color: var(--pretty-color);
+}
+.classbutton2:hover,
+.classbutton2:focus {
   color: var(--pretty-color);
 }
