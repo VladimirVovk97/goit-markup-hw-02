@@ -17,7 +17,6 @@
 .header {
   background-color: #ffffff;
   color: var(--while-color);
-  font-weight: 1600;
 }
 
 /* header */
@@ -51,9 +50,8 @@ body {
   margin: 0%;
   list-style: none;
   padding: 0%;
-  font-family: var(--accent-font);
+  font-family: var(--main-font);
   font-size: 14px;
-  line-height: 1, 5;
   font-weight: 1600;
 }
 
