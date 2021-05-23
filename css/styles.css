@@ -63,6 +63,7 @@ ul {
 .classbutton {
   cursor: pointer;
 }
-.classbutton1:hover {
+.classbutton1:hover,
+.classbutton1:focus {
   color: var(--pretty-color);
 }
