@@ -5,6 +5,7 @@
   --pretty-color: #2196f3;
   --while-color: #ffffff;
   --link-color: #757575;
+  --sectionfooter-color: #2f303a;
   --accent-font: Raleway, sans-serif;
   --main-font: Roboto, sans-serif;
 }
@@ -28,6 +29,11 @@
 }
 /* header */
 
+/* секции */
+.section1 {
+  background-color: var(--sectionfooter-color);
+}
+/* секции */
 /*  navList  */
 .nav-List a {
   color: var(--first-text-color);
@@ -88,6 +94,9 @@ ul {
   line-height: 2;
   font-weight: bold;
 }
+.intro-head {
+  color: var(--while-color);
+}
 /* заголовки */
 
 /* параграфы */
@@ -108,3 +117,9 @@ ul {
   line-height: 1, 7;
 }
 /* adress */
+
+/* footer */
+.class-footer {
+  background-color: var(--sectionfooter-color);
+}
+/* footer */
