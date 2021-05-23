@@ -5,8 +5,8 @@
   --pretty-color: #2196f3;
   --while-color: #ffffff;
   --link-color: #757575;
-  --accent-font: "Raleway", sans-serif;
-  --main-font: "Roboto", sans-serif;
+  --accent-font: Raleway, sans-serif;
+  --main-font: Roboto, sans-serif;
 }
 
 /* header */
@@ -82,18 +82,22 @@ ul {
 .classbutton2:focus {
   color: var(--pretty-color);
 }
-
+/* заголовки */
 .intro-subtitle {
   font-size: 18px;
   line-height: 2;
   font-weight: bold;
 }
+/* заголовки */
+
+/* параграфы */
 .class-p {
   font-size: 16px;
   line-height: 1, 875;
-  font-weight: normal;
 }
+/* параграфы */
 
+/* adress */
 .adress-list :hover,
 .adress-list :focus {
   color: var(--pretty-color);
@@ -103,3 +107,4 @@ ul {
   font-size: 14px;
   line-height: 1, 7;
 }
+/* adress */
