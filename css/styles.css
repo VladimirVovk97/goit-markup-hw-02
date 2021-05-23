@@ -8,6 +8,7 @@
   --sectionfooter-color: #2f303a;
   --accent-font: Raleway, sans-serif;
   --main-font: Roboto, sans-serif;
+  --accent-color: #2196f3;
 }
 
 /* header */
@@ -26,6 +27,12 @@
   font-style: normal;
   font-weight: bold;
   line-height: 1, 19;
+}
+
+.link:hover,
+.link:focus,
+.link-active {
+  color: var(--accent-color);
 }
 /* header */
 
