@@ -8,17 +8,24 @@
   --accent-font: "Raleway", sans-serif;
   --main-font: "Roboto", sans-serif;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
 /* header */
 .header {
   background-color: #ffffff;
   color: var(--while-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
-
+.class-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1, 19;
+}
 /* header */
 
 /*  navList  */
@@ -40,6 +47,11 @@
 .auth-nav-List a:focus {
   color: var(--pretty-color);
   font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
 }
 /* auth Nav */
 body {
@@ -52,7 +64,6 @@ body {
   padding: 0%;
   font-family: var(--main-font);
   font-size: 14px;
-  font-weight: 1600;
 }
 
 ul {
@@ -71,6 +82,24 @@ ul {
 .classbutton2:focus {
   color: var(--pretty-color);
 }
-.address-list {
+
+.intro-subtitle {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: bold;
+}
+.class-p {
+  font-size: 16px;
+  line-height: 1, 875;
+  font-weight: normal;
+}
+
+.adress-list :hover,
+.adress-list :focus {
+  color: var(--pretty-color);
+  font-family: Roboto;
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 7;
 }
