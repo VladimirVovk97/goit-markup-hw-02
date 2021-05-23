@@ -73,3 +73,6 @@ ul {
 .classbutton2:focus {
   color: var(--pretty-color);
 }
+.address-list {
+  font-style: normal;
+}
